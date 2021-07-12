@@ -22,4 +22,4 @@ Adjust the InfluxDB connection settings at the top of `measure_temperature.py` f
 
 4. Modify crontab to run the script every hour
 
-    Edit crontab using your favorite editor with `crontab -e` and add the following line: `0 */1 * * * /usr/bin/python3 /path/to/script/speedtest.py`, this way the cronjob runs every hour.
+    Edit crontab using your favorite editor with `crontab -e` and add the following line: `0 */1 * * * /usr/bin/python3 /path/to/script/measure_temperature.py`, this way the cronjob runs every hour.
